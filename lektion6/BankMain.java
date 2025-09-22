@@ -24,7 +24,5 @@ public class BankMain {
 
         System.out.println("Saldo:");
         System.out.println(account.getBalance());
-
-
     }
 }

@@ -3,6 +3,18 @@ public class Rectangle {
     private double width;
     private String color;
 
+    public Rectangle(double height, double width) {
+        this.height = height;
+        this.width = width;
+        this.color = "yellow";
+    }
+
+    public Rectangle(double length) {
+        this.height = length;
+        this.width = length;
+        this.color = "yellow";
+    }
+
     public void print() {
         System.out.println("Rectangle:");
         System.out.printf("\theight: %.2f%n", height);
