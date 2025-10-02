@@ -4,10 +4,11 @@ public class Ex7StringBuilder {
         String resString = "";
         for (int i = 0; i < 100; ++i) {
             // don't append in a loop, it will create a lot of intermediate strings
-            resString += i + " ";
+            resString = resString + i + " ";
         }
         System.out.println(resString);
 
+        
         // the good way to do it
         StringBuilder builder = new StringBuilder();
         for (int i = 0; i < 100; ++i) {
