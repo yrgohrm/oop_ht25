@@ -156,8 +156,8 @@ public record Ansi(
     }
 
     public static void clearScreen() {
-        // System.out.println(ESCAPE + "H" + ESCAPE + "2J");
-        System.out.print("\033\143");
+        System.out.print(ESCAPE + "H" + ESCAPE + "2J");
+        // the vt100 RIS: "\033\143";
     }
 
     public static Ansi make() {
