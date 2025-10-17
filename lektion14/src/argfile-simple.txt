@@ -1,0 +1,2 @@
+-cp ".;..\\lib\\slf4j-api-2.0.17.jar;..\\lib\\slf4j-simple-2.0.17.jar"
+-Dorg.slf4j.simpleLogger.defaultLogLevel=debug

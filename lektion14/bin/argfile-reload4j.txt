@@ -1,0 +1,1 @@
+-cp ".;..\\lib\\slf4j-api-2.0.17.jar;..\\lib2\\slf4j-reload4j-2.0.17.jar;..\\lib2\\reload4j-1.2.26.jar"
